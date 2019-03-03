@@ -1,6 +1,6 @@
 <!DOCTYPE html>
    <head>
-      <link rel="stylesheet" href="{{'/assets/css/style.css'}}">
+      <link rel="stylesheet" href="/assets/css/styles.css">
    </head>
    <body>
       <div class="container">
@@ -8,7 +8,11 @@
             Green Island Cricket Club
          </header>
          <nav>
-            Navigation
+            <ul>
+               {% for item in site.data.navlist.navitems %}
+                  <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+               {% endfor %}
+            </ul>
          </nav>
          <main>
             {{ content }}
