@@ -1,1 +1,1 @@
-# gicc
+bundle exec jekyll serve
