@@ -1,22 +1,22 @@
 navitems:
 
 - title: Our Club
-  url: ourclub.html
+  url: pages/ourclub.html
 
 - title: Contact Us
-  url: contactus.html
+  url: pages/contactus.html
 
 - title: Cafe & Bar
-  url: cafebar.html
+  url: pages/cafebar.html
 
 - title: New Members
-  url: newmembers.html
+  url: pages/newmembers.html
 
 - title: Junior Cricket
-  url: juniors.html
+  url: pages/juniors.html
 
 - title: Stats
-  url: stats.html
+  url: pages/stats.html
 
 - title: Club News
-  url: clubnews.html
+  url: pages/clubnews.html
