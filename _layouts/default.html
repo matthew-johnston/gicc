@@ -4,8 +4,15 @@
    </head>
    <body>
       <div class="container">
-         <header class="header-title">
-            Green Island Cricket Club
+         <header>
+            <div class="header-menuBar">
+               <div class="header-menuItems">
+                  {% for item in site.data.navlist.navitems %}
+                     <div class="header-menuItem"><a class="header-menuItem-anchor" href="{{ item.url }}">{{ item.title }}</a></div>
+                  {% endfor %}
+               </div>
+            </div>
+            <div class="header-title">Green Island Cricket Club</div>
          </header>
          <nav>
             <ul>

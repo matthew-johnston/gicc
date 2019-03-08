@@ -20,3 +20,12 @@ navitems:
 
 - title: Club News
   url: pages/clubnews.html
+
+- title: Sponsors
+  url: pages/sponsors.html
+
+- title: Merchandise
+  url: pages/merchandise.html
+
+- title: History
+  url: pages/history.html    

@@ -1,5 +1,12 @@
 body {
    font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+   margin: 0;
+}
+
+a, a:hover, a:focus {
+   text-decoration: none;
+   color: inherit;
+   transition: opacity .25s ease-in-out;
 }
 
 .container {
@@ -19,6 +26,37 @@ body {
 
 header {
    grid-area: header;
+   background-color: #138a59;
+}
+
+.header-title {
+   color: white;
+   padding: 25px;
+   font-size: 2.2em;
+   font-weight: 700;
+}
+
+.header-menuBar {
+   display: table-cell;
+   height: 3em;
+   line-height: 3em;
+   background-color: rgba(0, 0, 0, 0.15);
+}
+
+.header-menuItem {
+   float: left;
+}
+
+.header-menuItem-anchor {
+   padding: 0 12px;
+   color: rgba(255, 255, 255, 0.75);
+   text-decoration: none;
+   font-weight: 700;
+   font-size: 1em;
+}
+
+.header-menuItem-anchor:hover, .header-menuItem-anchor:active {
+   opacity: 1;
 }
  
 nav {
@@ -37,14 +75,6 @@ aside {
  
 footer {
    grid-area: footer;
-}
-
-.header-title {
-   color: white;
-   background-color: #138a59;
-   padding: 25px;
-   font-size: 2.2em;
-   font-weight: 700;
 }
 
 .footer-copyright {
